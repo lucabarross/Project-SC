@@ -6,4 +6,5 @@ Project created with React and TypeScript
 
 ## Para rodar o projeto
 > ```npm i``` <br>
-> ```npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion```
+> ```npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion``` <br>
+> ```npm i react-router-dom```
