@@ -5,7 +5,7 @@ import { LogoCircle } from "../Components/LogoCircle"
 export function Login() {
     return (
         <>
-            <Flex bg={colors.background} height='100vh' justifyContent='center' alignItems='center' gap='20px'>
+            <Flex bg={colors.background} height='100vh' justifyContent='center' alignItems='center' gap='20px' flexWrap='wrap' flexDirection={["column", "row"]}>
                 <LogoCircle />
                 <Box border='2px' borderColor={colors.acento} p='20px' borderRadius='8px'>
                     <Text textAlign='center'>Sing In</Text>

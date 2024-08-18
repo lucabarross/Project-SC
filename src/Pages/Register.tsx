@@ -5,7 +5,7 @@ import { LogoCircle } from "../Components/LogoCircle"
 export function Register() {
     return (
         <>
-            <Flex bg={colors.background} height='100vh' justifyContent='center' alignItems='center' gap='20px'>
+            <Flex bg={colors.background} height='100vh' justifyContent='center' alignItems='center' gap='20px' flexWrap='wrap' flexDirection={["column-reverse", "row"]}>
                 <Box border='2px' borderColor={colors.acento} p='20px' borderRadius='8px'>
                     <Text textAlign='center'>Register</Text>
                     <Flex flexDirection='column' gap='20px' mt='20px' mb='20px'>
