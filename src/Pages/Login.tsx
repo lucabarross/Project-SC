@@ -16,7 +16,7 @@ export function Login() {
                     </Flex>
                     <Flex justifyContent='space-around'>
                         <Text as='a' href="#" textDecoration='underline'>Forgot Password?</Text>
-                        <Text as='a' href="/register" textDecoration='underline'>Register</Text>
+                        <Text as='a' href="/register" textDecoration='underline'>Registr</Text>
                     </Flex>
                 </Box>
             </Flex>
